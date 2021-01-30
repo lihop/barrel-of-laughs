@@ -1,0 +1,3 @@
+congratulations.wav, "Tada Fanfare G" by plasterbrain (https://plasterbrain.com/), from https://freesound.org/people/plasterbrain/sounds/397353/, released under Creative Commons: Public Domain Dedication https://creativecommons.org/publicdomain/zero/1.0/
+level_complete.wav, "GRAND ENTRANCE INTRO.wav" by metrostock99, from https://freesound.org/people/metrostock99/sounds/514492/, released under Creative Commons: By Attribution 3.0 License http://creativecommons.org/licenses/by/3.0/
+wrong_buzzer.wav, "Wrong Buzzer" by KevinVG207, from https://freesound.org/people/KevinVG207/sounds/331912/, released under Creative Commons: Public Domain Dedication https://creativecommons.org/publicdomain/zero/1.0/

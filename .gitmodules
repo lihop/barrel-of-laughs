@@ -1,0 +1,18 @@
+[submodule "thirdparty/fluid-hierarchical-task-network"]
+	path = thirdparty/fluid-hierarchical-task-network
+	url = https://github.com/lihop/fluid-hierarchical-task-network.git
+[submodule "thirdparty/qodot-plugin"]
+	path = thirdparty/qodot-plugin
+	url = https://github.com/lihop/qodot-plugin
+[submodule "thirdparty/Godot-Thief-Controller"]
+	path = thirdparty/Godot-Thief-Controller
+	url = https://github.com/Scipioceaser/Godot-Thief-Controller
+[submodule "thirdparty/Godot-3D-text-plugin"]
+	path = thirdparty/Godot-3D-text-plugin
+	url = https://github.com/SIsilicon/Godot-3D-text-plugin
+[submodule "thirdparty/gs-logger"]
+	path = thirdparty/gs-logger
+	url = https://gitlab.com/godot-stuff/gs-logger.git
+[submodule "thirdparty/godot-credits"]
+	path = thirdparty/godot-credits
+	url = https://github.com/benbishopnz/godot-credits

@@ -66,4 +66,3 @@
 
 # Misc
 *.bin filter=lfs diff=lfs merge=lfs -text
-*.map filter=lfs diff=lfs merge=lfs -text

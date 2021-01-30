@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/palm.obj-c6be8e048afd76cc10cd76ecd770d91a.mesh"
+
+[deps]
+
+files=[ "res://.import/palm.obj-c6be8e048afd76cc10cd76ecd770d91a.mesh" ]
+
+source_file="res://maps/models/palm.obj"
+dest_files=[ "res://.import/palm.obj-c6be8e048afd76cc10cd76ecd770d91a.mesh", "res://.import/palm.obj-c6be8e048afd76cc10cd76ecd770d91a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

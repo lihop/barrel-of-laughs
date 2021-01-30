@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/hey_no_peeking_1.wav-d117cf3e600fa0f40518d3616da0f192.sample"
+
+[deps]
+
+source_file="res://characters/mopsa/assets/final/hey_no_peeking_1.wav"
+dest_files=[ "res://.import/hey_no_peeking_1.wav-d117cf3e600fa0f40518d3616da0f192.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

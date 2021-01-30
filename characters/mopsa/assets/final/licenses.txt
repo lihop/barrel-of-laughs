@@ -1,0 +1,2 @@
+cat_pilot_texture.png, "Cat Pilot (Rigged + Animated)" by Tomcat94, from https://opengameart.org/content/cat-pilot-rigged-animated, released under Creative Commons: Public Domain Dedication https://creativecommons.org/publicdomain/zero/1.0/
+giggle_0.wav, "giggle" by Lomond, from https://freesound.org/people/Lomond/sounds/155942/, released under Creative Commons: By Attribution 3.0 License http://creativecommons.org/licenses/by/3.0/

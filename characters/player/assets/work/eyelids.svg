@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="508mm"
+   height="508mm"
+   viewBox="0 0 508 507.99998"
+   version="1.1"
+   id="svg8"
+   inkscape:export-filename="/home/leroy/projects/barrel-of-laughs/characters/player/assets/final/eyelids.png"
+   inkscape:export-xdpi="96.000008"
+   inkscape:export-ydpi="96.000008"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="eyelids.svg">
+  <defs
+     id="defs2">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Cross Blur"
+       id="filter1291">
+      <feColorMatrix
+         in="SourceGraphic"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.2125 -0.7154 -0.0721 1 0 "
+         result="colormatrix"
+         id="feColorMatrix1281" />
+      <feComposite
+         in="SourceGraphic"
+         in2="colormatrix"
+         operator="arithmetic"
+         k2="1"
+         k3="0"
+         k4="0"
+         result="composite"
+         id="feComposite1283" />
+      <feGaussianBlur
+         stdDeviation="20 0.01"
+         result="blur1"
+         id="feGaussianBlur1285" />
+      <feGaussianBlur
+         in="composite"
+         stdDeviation="0.01 20"
+         result="blur2"
+         id="feGaussianBlur1287" />
+      <feBlend
+         in="blur2"
+         in2="blur1"
+         mode="darken"
+         result="blend"
+         id="feBlend1289" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.13356145"
+     inkscape:cx="2939.7462"
+     inkscape:cy="1351.3828"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showguides="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(248.29167,122.55539)">
+    <path
+       id="path1207"
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:19.2;stroke-opacity:1;paint-order:markers stroke fill;filter:url(#filter1291)"
+       d="m -248.29167,-122.55539 v 254 a 254.00001,254.00076 0 0 1 253.7321113,-254 z m 254,0 a 254.00001,254.00076 0 0 1 254,253.73211 v -253.73211 z m 254,254 a 254.00001,254.00076 0 0 1 -253.7321113,254 H 259.70833 Z m -508,0.26789 v 253.73211 h 254 a 254.00001,254.00076 0 0 1 -254,-253.73211 z" />
+  </g>
+</svg>

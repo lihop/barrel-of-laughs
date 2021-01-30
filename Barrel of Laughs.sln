@@ -1,6 +1,6 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Giggle Seeker", "Giggle Seeker.csproj", "{7D855E9A-EF23-482D-AEE5-95294AA94587}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barrel of Laughs", "Barrel of Laughs.csproj", "{7D855E9A-EF23-482D-AEE5-95294AA94587}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

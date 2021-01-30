@@ -1,7 +1,8 @@
-<Project Sdk="Godot.NET.Sdk/3.2.3">
+<Project Sdk="Godot.NET.Sdk/3.2.4">
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
     <RootNamespace>GiggleSeeker</RootNamespace>
+    <DefaultItemExcludes>$(DefaultItemExcludes);thirdparty/**</DefaultItemExcludes>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies">
@@ -9,5 +10,10 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="FluidHTN">
+      <HintPath>./thirdparty/fluid-hierarchical-task-network/Fluid-HTN/bin/Release/Fluid-HTN.dll</HintPath>
+    </Reference>
   </ItemGroup>
 </Project>

@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://objects/hiding_spots/barrel/laughing_barrel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://objects/hiding_spots/barrel/trick_barrel.gd" type="Script" id=2]
+
+[sub_resource type="CylinderShape" id=1]
+radius = 7.67382
+height = 8.34455
+
+[node name="Barrel" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="Area" type="Area" parent="." index="3"]
+
+[node name="CollisionShape" type="CollisionShape" parent="Area" index="0"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.11639, 0 )
+shape = SubResource( 1 )
+
+[connection signal="body_entered" from="Area" to="." method="_on_Area_body_entered"]

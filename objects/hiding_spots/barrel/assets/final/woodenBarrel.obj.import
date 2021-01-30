@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/woodenBarrel.obj-6575a05e9ec0b9f2a3ae2f8b5846e7f8.mesh"
+
+[deps]
+
+files=[ "res://.import/woodenBarrel.obj-6575a05e9ec0b9f2a3ae2f8b5846e7f8.mesh" ]
+
+source_file="res://objects/hiding_spots/barrel/assets/final/woodenBarrel.obj"
+dest_files=[ "res://.import/woodenBarrel.obj-6575a05e9ec0b9f2a3ae2f8b5846e7f8.mesh", "res://.import/woodenBarrel.obj-6575a05e9ec0b9f2a3ae2f8b5846e7f8.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

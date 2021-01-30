@@ -1,0 +1,42 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://objects/decoration/palms/assets/final/palm_bark.material" type="Material" id=1]
+[ext_resource path="res://objects/decoration/palms/assets/final/palm_default.fbx" type="PackedScene" id=2]
+[ext_resource path="res://objects/decoration/palms/assets/final/palm_leaves.material" type="Material" id=3]
+[ext_resource path="res://objects/decoration/palms/palm.gd" type="Script" id=4]
+
+[sub_resource type="CylinderShape" id=1]
+radius = 0.250307
+height = 8.51476
+
+[node name="PalmDefaultl" type="StaticBody"]
+script = ExtResource( 4 )
+
+[node name="Model" parent="." instance=ExtResource( 2 )]
+
+[node name="ExoticPalmDefaltDeathLeaves" parent="Model/RootNode" index="0"]
+material/0 = ExtResource( 3 )
+
+[node name="ExoticPalmDefaltYoungLeaves" parent="Model/RootNode" index="1"]
+material/0 = ExtResource( 3 )
+
+[node name="ExoticPalmDefaltLeaves" parent="Model/RootNode" index="2"]
+material/0 = ExtResource( 3 )
+
+[node name="ExoticPalmDefaltLeavesFalen" parent="Model/RootNode" index="3"]
+material/0 = ExtResource( 3 )
+
+[node name="ExoticPalmDefaltBasicBark001" parent="Model/RootNode" index="4"]
+material/0 = ExtResource( 1 )
+
+[node name="ExoticPalmDefaltGroundBase" parent="Model/RootNode" index="5"]
+material/0 = ExtResource( 1 )
+
+[node name="ExoticPalmDefaltExtraBark" parent="Model/RootNode" index="6"]
+material/0 = ExtResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0479417, 5.05517, -0.0857625 )
+shape = SubResource( 1 )
+
+[editable path="Model"]

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/ready_or_not.wav-9e5e5452bdf896f8fe913358e100d0af.sample"
+
+[deps]
+
+source_file="res://characters/mopsa/assets/final/ready_or_not.wav"
+dest_files=[ "res://.import/ready_or_not.wav-9e5e5452bdf896f8fe913358e100d0af.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

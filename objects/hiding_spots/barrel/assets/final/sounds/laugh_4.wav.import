@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/laugh_4.wav-d962e2f7e716631b6576bc7ae995cd2f.sample"
+
+[deps]
+
+source_file="res://objects/hiding_spots/barrel/assets/final/sounds/laugh_4.wav"
+dest_files=[ "res://.import/laugh_4.wav-d962e2f7e716631b6576bc7ae995cd2f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

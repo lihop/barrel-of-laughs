@@ -1,0 +1,109 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://addons/thief_controller/prefabs/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://characters/player/eyes/eyes.tscn" type="PackedScene" id=2]
+[ext_resource path="res://characters/player/player.gd" type="Script" id=3]
+[ext_resource path="res://gui/fonts/final/oswald_bold.ttf" type="DynamicFontData" id=4]
+
+[sub_resource type="ViewportTexture" id=1]
+viewport_path = NodePath("Viewport")
+
+[sub_resource type="DynamicFont" id=2]
+size = 32
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 32
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 32
+font_data = ExtResource( 4 )
+
+[node name="Player" instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0 )
+script = ExtResource( 3 )
+speed = 2.0
+interact_distance = 1.75
+
+[node name="Eyes" parent="." index="0" instance=ExtResource( 2 )]
+eyes_open = false
+
+[node name="Timer" type="Timer" parent="." index="1"]
+one_shot = true
+
+[node name="LightDetector" parent="." index="4"]
+visible = false
+light_detect_interval = 9.22337e+18
+
+[node name="Camera" parent="." index="6"]
+far = 200.0
+
+[node name="LightIndicator" parent="Camera/CanvasLayer/PlayerUI" index="1"]
+visible = false
+
+[node name="ZoomOverlay" parent="Camera/CanvasLayer/PlayerUI" index="2"]
+visible = false
+
+[node name="Sprite" parent="Camera/CanvasLayer/PlayerUI" index="3"]
+visible = false
+texture = SubResource( 1 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." index="9"]
+
+[node name="Control" type="Control" parent="CanvasLayer" index="0"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer/Control" index="0"]
+anchor_left = 0.5
+anchor_top = 0.083
+anchor_right = 0.5
+anchor_bottom = 0.083
+margin_left = -465.0
+margin_top = -6.8
+margin_right = 465.0
+margin_bottom = 104.2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+custom_fonts/normal_font = SubResource( 2 )
+bbcode_enabled = true
+fit_content_height = true
+scroll_active = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TimerLabel" type="Label" parent="CanvasLayer/Control" index="1"]
+anchor_left = 0.5
+anchor_top = 0.533
+anchor_right = 0.5
+anchor_bottom = 0.533
+margin_left = -20.0
+margin_top = -13.8
+margin_right = 20.0
+margin_bottom = 16.2
+custom_fonts/font = SubResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BarrelsLabel" type="Label" parent="CanvasLayer/Control" index="2"]
+anchor_left = 0.039
+anchor_top = 0.859
+anchor_right = 0.039
+anchor_bottom = 0.859
+margin_left = -17.4867
+margin_top = -21.632
+margin_right = 22.5133
+margin_bottom = 17.368
+custom_fonts/font = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="closed" from="Eyes" to="." method="_on_Eyes_closed"]
+[connection signal="opened" from="Eyes" to="." method="_on_Eyes_opened"]
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+
+[editable path="LightDetector"]

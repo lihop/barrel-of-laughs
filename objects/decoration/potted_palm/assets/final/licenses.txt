@@ -1,0 +1,2 @@
+potted_palm_small.mtl, "Potted Palm" by Wolfgang Wozniak (http://wolfgame.com/), from https://opengameart.org/content/potted-palm, released under Creative Commons: By Attribution 3.0 License http://creativecommons.org/licenses/by/3.0/, modified from the original
+potted_palm_small.obj, "Potted Palm" by Wolfgang Wozniak (http://wolfgame.com/), from https://opengameart.org/content/potted-palm, released under Creative Commons: By Attribution 3.0 License http://creativecommons.org/licenses/by/3.0/, modified from the original

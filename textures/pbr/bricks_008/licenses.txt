@@ -1,0 +1,4 @@
+Bricks008_1K-JPG.zip, "Bricks 008" by Lennart (cc0textures.com), from https://cc0textures.com/view?id=Bricks008, released under Creative Commons: Public Domain Dedication https://creativecommons.org/publicdomain/zero/1.0/
+bricks_008_ao.png, "Bricks 008" by Lennart (cc0textures.com), from https://cc0textures.com/view?id=Bricks008, released under Creative Commons: Public Domain Dedication https://creativecommons.org/publicdomain/zero/1.0/
+bricks_008_normal.png, "Bricks 008" by Lennart (cc0textures.com), from https://cc0textures.com/view?id=Bricks008, released under Creative Commons: Public Domain Dedication https://creativecommons.org/publicdomain/zero/1.0/
+bricks_008_roughness.png, "Bricks 008" by Lennart (cc0textures.com), from https://cc0textures.com/view?id=Bricks008, released under Creative Commons: Public Domain Dedication https://creativecommons.org/publicdomain/zero/1.0/
