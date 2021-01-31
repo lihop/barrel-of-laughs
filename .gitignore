@@ -6,7 +6,7 @@ export_presets.cfg
 
 # Mono-specific ignores
 .mono/
-mono_crash.*.json
+mono_crash*
 
 # Blender-specific ignores
 *.blend?
