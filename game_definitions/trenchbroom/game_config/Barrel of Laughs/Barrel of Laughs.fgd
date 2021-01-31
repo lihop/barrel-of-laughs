@@ -82,5 +82,5 @@
 	trigger_signal_delay(float) : ""  : 0
 ]
 
-@PointClass size(-128 -128 0, 128 128 704) color(119 200 0) model("maps/models/palm.obj") = Palm : "Palm Tree" [
+@PointClass color(119 200 0) model("maps/models/palm.obj") size(-128 -128 0, 128 128 704) = Palm : "Palm Tree" [
 ]
